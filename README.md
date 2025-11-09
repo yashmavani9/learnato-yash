@@ -24,6 +24,7 @@ To keep the backend responsive, a simple uptime ping was added using <a href="ht
 
 <p>This keeps the backend warm and running and loads instantly.</p>
 
+<hr/>
 
 <h2>🧠 Project Overview</h2>
 <p>
