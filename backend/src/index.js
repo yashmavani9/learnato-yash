@@ -13,9 +13,14 @@ const server = http.createServer(app);
 // Setup Socket.io
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: [
+      "http://localhost:5173",
+      "https://learnato-yash.vercel.app/"   // <-- YOURS HERE
+    ],
+    methods: ["GET", "POST"]
   },
 });
+
 
 // When a new client connects
 io.on("connection", (socket) => {
