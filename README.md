@@ -9,6 +9,22 @@
 
 <hr/>
 
+<h2>⏰ Render Wake-Up Fix - Cron Job</h2>
+<p>
+Render free tier sleeps after 15 minutes, causing slow first loads. 
+</p>
+<p>
+To keep the backend responsive, a simple uptime ping was added using <a href="https://cron-job.org" target="_blank">cron-job.org</a>.
+</p>
+
+<ul>
+  <li>URL: <code>https://learnato-yash.onrender.com/api/posts</code></li>
+  <li>Schedule: Every 5 minutes</li>
+</ul>
+
+<p>This keeps the backend warm and running and loads instantly.</p>
+
+
 <h2>🧠 Project Overview</h2>
 <p>
 A real-time discussion forum microservice built for the Learnato Hackathon. Users can create posts, reply, upvote, mark as answered, and interact in real-time via Socket.io.
