@@ -5,6 +5,7 @@
   <li><strong>Frontend (Vercel):</strong> https://learnato-yash.vercel.app</li>
   <li><strong>Backend (Render):</strong> https://learnato-yash.onrender.com</li>
 </ul>
+<p>Render takes a minute or two when it is inactive for more than 15 minutes</p>
 
 <hr/>
 
