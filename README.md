@@ -92,3 +92,21 @@ A real-time discussion forum microservice built for the Learnato Hackathon. User
 <tr><td><code>post_upvoted</code></td><td>When a post is upvoted</td></tr>
 <tr><td><code>post_answered</code></td><td>When marked answered</td></tr>
 </table>
+
+<hr/>
+
+<h2>🐳 Docker Support</h2>
+<p>
+This project includes full Dockerization with:
+</p>
+
+<ul>
+  <li><strong>backend/Dockerfile</strong> — builds and runs the Node.js API</li>
+  <li><strong>frontend/Dockerfile</strong> — builds and serves the React app</li>
+  <li><strong>docker-compose.yml</strong> — runs frontend, backend, and MongoDB together</li>
+</ul>
+
+<p>
+These files satisfy the hackathon requirement and allow the entire microservice to run using simple Docker commands.
+</p>
+
